@@ -8,7 +8,7 @@ class TestCoin_Changer_Mob < Minitest::Test
 	end
 
 	def test_assert_that_0_equals_empty_hash
-		assert_({}), make_change(0))
+		assert_equal({}, make_change(0))
 	end	
 
 end
