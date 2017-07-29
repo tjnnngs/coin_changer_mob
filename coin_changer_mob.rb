@@ -24,3 +24,6 @@ def make_change(amount)
 exchange
 end
 
+
+
+#The assignment for this code was: "write a function that takes a number and returns a hash containing the minimum number of coins to make that value"
