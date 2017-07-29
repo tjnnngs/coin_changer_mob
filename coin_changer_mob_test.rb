@@ -31,4 +31,9 @@ class TestCoin_Changer_Mob < Minitest::Test
 		assert_equal({"dime" => 1}, make_change(10))
 	end
 
+	def test_assert_that_16_cents_equals_1_dime_1_nickel_1_penny
+		assert_equal({"dime" => 1, "nickel" =>1, "penny" => 1}, make_change(16))
+	end
+
+
 end
